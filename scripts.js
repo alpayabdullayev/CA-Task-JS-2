@@ -1,5 +1,5 @@
 //1)Bir ölçülü massivin elementləri arasında minimum və maksimum elementi nəzərə almadan yerdə qalan elementlərin cəmini tapın.
-// let arr = [2,1,3,4,6,6]  
+// let arr = [2,1,3,4,6]  
 // let biggest = -Infinity ////arr[o] verdim sehv cixdi niye?? sonra infinitye deyisdim ele butun tasklarda da bu qaydada getdim
 // let minimal = Infinity
 // let sum  = 0
@@ -22,8 +22,27 @@
 
 
 
+
+
+
+
+
 //2) Verilmiş elementin bir ölçülü massivdə neçə dəfə təkrarlandığını tapan proqram tərtib edin.
 
+// let num = 3
+// let count = 0
+// const arr =  [3,2,1,4,3,1,5,6,9,3,2,52,3,2]
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] === num) {
+//     count++
+//   }
+// }
+
+// console.log(count)
+
+
+//taski sehv basa dusmusem biggestin nece defe tekrarlandigini yazmisdim ilk olaraq sonradan duzunu yazdim
 // let arr = [3, 1, 4, 1, 5, 9,9,9,9,9,9,9,9, 2, 6, 5, 3, 5];
 // let count = 0
 // let biggest = arr [0]  //-Infinity burda da infinit verdim sehv cixdi basa dusmedim
@@ -38,6 +57,14 @@
 // }
 
 // console.log( `${biggest} ${count}`);
+
+
+
+
+
+
+
+
 
 
 
@@ -62,6 +89,13 @@
 // }
 
 // console.log(sum)
+
+
+
+
+
+
+
 
 
 
